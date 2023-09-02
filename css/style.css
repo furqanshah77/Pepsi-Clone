@@ -1,0 +1,521 @@
+/* Font PepsiOwner */
+
+@font-face {
+    font-family: pepsiowner;
+    src: url(../font/PepsiOwners-Regular.woff2);
+}
+
+
+/* Universal */
+
+* {
+    font-family: pepsiowner;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+/* NavBar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0025ff;
+    font-size: 14px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+
+
+
+.left-nav {
+    color: white;
+    margin: 13px 46px;
+
+
+}
+
+.left-nav>ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: start;
+
+
+}
+
+.left-nav img {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+
+}
+
+
+.left-nav img:hover {
+    transform: scale(1.10);
+}
+
+
+.list {
+    margin: 20px 5px;
+    cursor: pointer;
+
+}
+
+.btn {
+    color: white;
+    border: 2.6px solid white;
+    border-radius: 25.2px;
+    font-size: 14px;
+    padding: 4.51px 27px;
+    margin: 23px 47px 31px 0px;
+    background-color: #0025ff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #0025ff;
+    background-color: white;
+}
+
+
+.right-nav {
+    background-color: transparent;
+}
+
+
+/* First Section */
+
+.sec-1 {
+    background-color: black;
+    width: 100%;
+}
+
+
+.center {
+    text-align: center;
+    margin: 50px;
+    letter-spacing: normal;
+}
+
+.center>.cel {
+    color: white;
+    font-size: 70px;
+
+}
+
+.center>.days {
+    color: white;
+    font-size: 42px;
+
+}
+
+.btn-2 {
+    font-size: 52px;
+    padding: 28px;
+    margin: 60px;
+    background-color: #0025ff;
+    color: white;
+}
+
+.sec-1-ch {
+    position: relative;
+}
+
+.pepsi-dinar {
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+.pepsi-dinar-child {
+    text-align: center;
+
+}
+
+.pepsi-dinar-child>h2 {
+    font-size: 65px;
+    margin-bottom: -25px;
+}
+
+.exp {
+    font-size: 42px;
+    margin-bottom: -25px;
+}
+
+.blue {
+    color: #0025ff;
+}
+
+.pepsi-dinar-child h3:last-of-type {
+    font-size: 85px;
+
+}
+
+.diner_legal {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px 15%;
+}
+
+.diner_legal>p {
+
+    font-weight: 50;
+}
+
+
+.bg {
+    width: 100%;
+    height: 75vh;
+    background-image: url(../img/background.png);
+    display: flex;
+}
+
+.btl {
+    margin-left: 8%;
+}
+
+
+.btl>img {
+    margin-top: 5.7%;
+    height: 70vh;
+    width: 800px;
+}
+
+
+.text {
+    height: 400px;
+    width: 50%;
+    text-align: center;
+    color: white;
+    margin-right: 20%;
+    margin-top: 5%;
+
+}
+
+.text>.upb {
+    font-size: 25px;
+    font-weight: 10;
+}
+
+
+.text>h1 {
+    font-size: 80px;
+    font-weight: 100;
+}
+
+
+
+.btn-ul {
+    background-color: white;
+    color: #0025ff;
+    font-size: 100px;
+    padding: 0px 40px;
+    border-radius: 250px;
+
+}
+
+.free {
+    background-color: white;
+    color: #0025ff;
+    font-size: 25px;
+    padding: 0px 15px;
+    border-radius: 25px;
+
+
+}
+
+.text>p strong {
+    font-size: 18px;
+    word-spacing: 1px;
+    font-weight: 100;
+}
+
+
+.btn-get {
+    color: white;
+    border: 2.6px solid white;
+    border-radius: 25.2px;
+    font-size: 16px;
+    padding: 4px 22px;
+    margin: 23px 47px 31px 0px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.btn-get:hover {
+    background-color: white;
+    color: #0025ff;
+}
+
+.text>.copyright {
+    font-size: 10px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    text-align: justify;
+
+}
+
+/* Sceond Section */
+
+
+
+.sec-2 {
+    background-color: black;
+
+}
+
+.title {
+    color: #0025ff;
+    margin: auto;
+    text-align: center;
+    font-size: 42px;
+    padding: 16px 0;
+}
+
+
+.socail {
+    display: flex;
+    border: 3px solid #0025ff;
+    margin: 10px 5%;
+}
+
+
+.socail>a>.card>img {
+    width: 100%;
+}
+
+
+.socail>a:hover {
+
+    transform: rotate(2deg) scale(1.01);
+    opacity: 0.8;
+    border: 2px solid #0025ff;
+
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #0025ff;
+    height: 35vh;
+}
+
+.footer-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0025ff;
+    margin-top: 60px;
+}
+
+.btm-logo {
+    margin: 120px 50px;
+    width: 20%;
+}
+
+.btm-logo>img {
+
+    width: 100px;
+    height: 100px;
+}
+
+.btm-logo>img:hover {
+    transform: scale(1.10);
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    width: 50%;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 30px;
+
+}
+
+
+.info>ul {
+    list-style: none;
+
+
+}
+
+.info>ul>li:hover {
+
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+
+
+.sm-icon {
+    width: 20%;
+}
+
+.sm-icon ul {
+    display: flex;
+    list-style: none;
+    font-size: 28px;
+    color: white;
+    gap: 8%;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1401px) {
+
+    .sec-1-ch {
+        position: absolute;
+    }
+
+    .pepsi-dinar {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        background-color: black;
+
+    }
+
+    .pepsi-dinar-child {
+        text-align: center;
+
+    }
+
+    .pepsi-dinar-child>h2 {
+        font-size: 65px;
+        margin-bottom: -25px;
+    }
+
+    .exp {
+        font-size: 42px;
+        margin-bottom: -25px;
+    }
+
+    .blue {
+        color: #0025ff;
+    }
+
+    .pepsi-dinar-child h3:last-of-type {
+        font-size: 85px;
+
+    }
+
+
+    .diner_legal {
+        background-color: black;
+        position: relative;
+        color: white;
+        font-size: 10px;
+        letter-spacing: 1px;
+        text-align: center;
+        padding: 20px 10%;
+    }
+
+    .diner_legal>p {
+
+        font-weight: 50;
+    }
+
+}
+
+/* Media For 1016PX */
+
+@media only screen and (max-width: 1016px) {
+    .center>.cel {
+        color: white;
+        font-size: 60px;
+    }
+
+
+    .center>.days {
+        color: white;
+        font-size: 38px;
+    }
+
+    .btn-2 {
+        font-size: 45px;
+        padding: 22px;
+        margin: 50px;
+        background-color: #0025ff;
+        color: white;
+    }
+
+    .pepsi-dinar {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        background-color: black;
+
+    }
+
+    .pepsi-dinar-child {
+        text-align: center;
+
+    }
+
+    .pepsi-dinar-child>h2 {
+        font-size: 45px;
+        margin-bottom: -25px;
+    }
+
+    .exp {
+        font-size: 32px;
+        margin-bottom: -25px;
+    }
+
+    .blue {
+        color: #0025ff;
+    }
+
+    .pepsi-dinar-child h3:last-of-type {
+        font-size: 60px;
+
+    }
+
+
+
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+
+    body {
+        background-color: black;
+        /* margin: 0px 20px; */
+        /* width: 100%; */
+        /* height: 100vh; */
+    }
+
+    .navbar {
+        display: none;
+
+    }
+
+}
